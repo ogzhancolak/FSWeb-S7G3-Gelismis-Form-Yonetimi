@@ -1,0 +1,50 @@
+/* Form.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.div1, .div2, .div3 {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+    padding: 2px;
+}
+
+.label1 {
+    margin-right: 20px;
+}
+
+.label2, .label3 {
+    margin-right: 40px;
+}
+
+input,
+button {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
